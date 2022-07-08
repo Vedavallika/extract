@@ -1,0 +1,10 @@
+v=input()
+p=''
+for char in v:
+    if char not in p:
+        if char.isalpha():
+            p=p+char
+print(p)
+output:
+2fd2g3sa
+afdgs
